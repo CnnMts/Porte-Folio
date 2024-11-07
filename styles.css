@@ -23,7 +23,7 @@ header {
     background-color: #73746C;
     margin-top: 0;
     color: aliceblue;
-    height: 20vw; 
+    height: 10vw; 
 }
 
 #nom1 a {
@@ -239,4 +239,82 @@ header {
 }
 
 #tp{
+    opacity: 0;
+}
+
+.footer{
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #73746C;
+    height: 150px;
+    justify-content: space-around;
+}
+.logo{
+    
+    display: flex;
+}
+.Git{
+    padding-top: 2.5vw;
+   
+    display: flex;
+   
+
+    
+}
+
+#Github{
+    width: 3vw;
+    padding-right: 2vw;
+}
+
+#Telephone{
+    width: 3vw;
+    padding-right: 2vw;
+}
+#Email{
+    width: 3vw;
+    
+}
+.footer .Git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Git a:hover{
+    color:yellow;
+}
+.email-button 
+{
+display: inline-block;
+
+padding: 10px 20px;
+
+background-color: #007bff;
+
+color: #fff;
+
+text-decoration: none;
+
+border-radius: 5px;
+
+font-weight: bold;
+
+transition: background-color 0.3s ease;
+}
+
+
+.email-button:hover 
+{
+background-color: #0056b3;
+}
+.backform{
+    display: flex;
+    background-color: #8b9294;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vw;
+    width: 30vw;
 }
