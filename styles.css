@@ -1,0 +1,243 @@
+@media (min-width: 320px) and (max-width: 720px) {
+    .all{
+        flex-direction: column;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CDD2D3;
+}
+
+header {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: #73746C;
+    margin-top: 0;
+    color: aliceblue;
+    height: 20vw; 
+}
+
+#nom1 a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home {
+    margin-top: 10vw; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10vw; 
+}
+
+.home p {
+    margin: 0;
+    font-size: 2vw; 
+}
+
+.description {
+    margin-top: 23vw; 
+    text-align: center;
+    align-items: center;
+    height: 27vw; 
+    width: 80vw; 
+    background-color: #D7D7D7;
+    margin: auto;
+    padding-top: 1vw; 
+    padding-bottom: 2vw; 
+    border-radius: 2vw; 
+}
+
+.nav-service a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-service a:hover {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.nav-service {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.nav-service li {
+    padding: 2vw; 
+}
+
+#black-bar {
+    background-color: black;
+    display: block;
+    border-color: black;
+    color: black;
+    height: 0.05vw; 
+    width: 15vw; 
+    text-shadow: none;
+}
+
+#phom2 {
+    display: flex;
+    justify-content: center;
+}
+
+#arrow {
+    display: block;
+    width: 8vw; 
+    margin: auto;
+    margin-bottom: 18vw; 
+}
+
+#space {
+    background-color: black;
+    display: block;
+    border-color: black;
+    color: black;
+    height: 0.05vw; 
+    width: 5vw; 
+    text-shadow: none;
+}
+
+.porte-folio {
+    background-color: #C9B2B2;
+    margin: auto;
+    height: 40vw; 
+    width: 90vw; 
+    border-radius: 2vw; 
+    margin-top: 5vw; 
+    padding-top: 1.5vw; 
+}
+
+#space2 {
+    background-color: black;
+    display: block;
+    border-color: black;
+    color: black;
+    height: 0.05vw; 
+    width: 5vw; 
+    text-shadow: none;
+}
+
+#Titre {
+    display: flex;
+    justify-content: center;
+}
+
+.first-projet {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+#text-pathfinding {
+    margin-left: 3vw; 
+}
+
+.img-path {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding-right: 10vw; 
+    margin-top: 3vw; 
+    margin-left: 3vw; 
+}
+
+#titre-porte-folio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Path-image {
+    display: flex;
+    flex-direction: row;
+}
+
+#path {
+    width: 25vw; 
+    height: auto;
+}
+
+.Porte-folio-seul {
+    text-align: center;
+}
+
+.container-competence {
+    display: flex;
+    flex-direction: column;
+    background-color: #d4bfbf;
+    margin: auto;
+    height: 40vw; 
+    width: 90vw; 
+    border-radius: 2vw; 
+    margin-top: 3.5vw; 
+    
+}
+
+#competence-titre {
+    text-align: center;
+}
+
+#Hardskill {
+    margin-left: 7vw; 
+}
+
+.img-hard-soft{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.liste-hardskill {
+    margin-left: 5vw; 
+}
+
+#Photo {
+    width: 15vw;;
+}
+
+.soft {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-competence .soft {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.Photo {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.comp-text{
+    width: 33%;
+}
+
+#tp{
+   opacity: 0;
+}
