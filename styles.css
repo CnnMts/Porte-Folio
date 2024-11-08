@@ -1,8 +1,3 @@
-@media (min-width: 320px) and (max-width: 720px) {
-    .all{
-        flex-direction: column;
-    }
-}
 
 html{
     scroll-behavior: smooth;
@@ -317,4 +312,68 @@ background-color: #0056b3;
     flex-direction: column;
     height: 40vw;
     width: 30vw;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 720px) {
+    .all{
+        flex-direction: column;
+    }
+    html{
+        font-size: small;
+    }
+    body{
+        font-size: small;
+    }
+    header{
+        font-size: 2vw;
+    }
+    #homedesk{
+        font-size: 4vw;
+    }
+    .description{
+        height: 36vw;
+        width: 87vw;
+    }
+    #arrow{
+        width: 18vw; 
+    }
+    .container-competence{
+        height: 80vw;
+    }
+    .porte-folio{
+        height: 80vw;
+    }
+    #path{
+        margin-top: 12vw;
+        margin-left: 4vw;
+        width: 30vw;
+        height: 20vw;
+    }
+    #Photo {
+        margin-left: 2vw;
+    }
+    .liste-hardskill{
+        padding-right: 0vw;
+        margin-left: 0;
+    }
+    footer{
+        font-size: smaller;
+    }
+    .logo{
+        margin-top: 15vw;
+        font-size: 2.5vw;
+    }
+    .Git{
+        margin-top: 17vw;
+    }
+    .token{
+        margin-top: 17vw;
+    }
+    .backform{
+        width: 60vw;
+    }
+    
 }
