@@ -1,3 +1,14 @@
+@keyframes slideDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
 
 html{
     scroll-behavior: smooth;
@@ -96,6 +107,7 @@ header {
     width: 8vw; 
     margin: auto;
     margin-bottom: 18vw; 
+    animation: slideDown 1s infinite;
 }
 
 #space {
