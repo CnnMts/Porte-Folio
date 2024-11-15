@@ -325,6 +325,13 @@ background-color: #0056b3;
     height: 40vw;
     width: 30vw;
 }
+.all-backform{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 40VW;
+}
 
 
 
